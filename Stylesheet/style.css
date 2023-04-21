@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+.font{
+    font-family: "serenity", sans-serif;
+    font-family: "serenity light", sans-serif;
+}
+
+.website-body{
+   background-color: #FCFBF4;
+}
+
+.kasama-logo{
+    padding-left: 37px;
+}
+
+.heading-flex{
+    display: flex;
+    gap: 100px;
+    background-color: #80483F;       
+    justify-content: center;
+    padding: 10px;
+    color:#FCFBF4;
+}
+
+.header-image{
+    position: relative;
+    height: 600px;
+    background-image: url(../Images/kasamaheading.jpg);
+    background-size: cover;
+    background-position: center;       
+}
+
+.menu-flex{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: #80483F; 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    flex-wrap: wrap; 
+}
+ 
+
+.aboutus-font{
+    color: #80483F;
+    font-size: 20px;
+    padding-left: 120px;
+}
+
+.aboutus-flex{
+    display: flex;
+    justify-content: center;
+    color: #80483F;
+    gap: 25px;
+    font-size: 23px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    padding-right: 120px;
+}
+
+.website-footer{
+    background-color: #80483F;
+    display: flex;
+    justify-content: center;
+    color: #FCFBF4;
+    font-family: "serenity extra light", sans-serif;
+}
+
+.icons{
+    display: flex;
+    padding-top: 12px;
+    gap: 5px;
+}
+
+.facebook-icon{
+    padding-top: 3px ;
+}
+
+.footer-flex{
+    display: flex;
+    gap: 120px;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+.name-footer{
+    text-align: center;
+}
+      
+.fadeonload{
+    opacity:0;
+    margin-left:-300px;
+    max-width:100%;
+    }
+
+        
